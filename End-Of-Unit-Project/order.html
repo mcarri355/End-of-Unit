@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./favicon_io/favicon-32x32.png" type="image/x-icon">
+    <meta name="description" content="Gator Burger Home Page">
+    <meta property="og:image" content="order.html/static/img/logo.png">
+    <meta property="og:description" content="Where you order your food from Gator Burger">
+    <meta property="og:title" content="Gator Burger Order Form">
+    <link rel="stylesheet" href="order.css">
+    <title>Gator Burger Order Form</title>
+</head>
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="i4 navbar"><img src="logo.png" alt="" width="100px" height="100px"></div>
+        <div class="i5 navbar"><button>Search</button><input type="text"></div>
+        <div class="i1 navbar"><a href="index.html">Home</a></div>
+        <div class="i2 navbar"><a href="burger.html">Menu</a></div>
+        <div class="i3 navbar"><a href="gallery.html">Gallery</a></div>
+        <div class="order navbar"><a href="order.html">Order</a></div>
+    </div>
+    <!-- order form -->
+    <form class="form">
+        <fieldset>
+            <legend>User Information</legend>
+            <p>
+                <label for="">Username:</label>
+                <input type="text" required>
+            </p>
+            <p>
+                <label for="">Email:</label>
+                <input type="email" required>
+            </p>
+            <p>
+                <label for="">Phone Number: </label>
+                <input type="tel" required>
+            </p>
+            <p>
+                <label for="">Address: </label>
+                <input type="text" required>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Burgers</legend>
+            <input type="checkbox">
+            <label for="">Gator Burger</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Impossible Burger</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Bacon Gator</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Turkey Burger</label>
+        </fieldset>
+        <fieldset>
+            <legend>Salads</legend>
+            <input type="checkbox">
+            <label for="">Chicken Caesar Salad</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Macaroni Salad</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Cobb Salad</label>
+        </fieldset>
+        <fieldset>
+            <legend>Kids Meals</legend>
+            <input type="checkbox">
+            <label for="">Chicken Tenders</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Mac N Cheese</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Mini Corn Dogs</label>
+        </fieldset>
+        <fieldset>
+            <legend>Appetizers</legend>
+            <input type="radio" name="app">
+            <label for="">Onion Rings</label>
+            <br>
+            <input type="radio" name="app">
+            <label for="">Mozarella Sticks</label>
+            <br>
+            <input type="radio" name="app">
+            <label for="">Stuffed Pretzel Bites</label>
+        </fieldset>
+        <fieldset>
+            <legend>Sides</legend>
+            <input type="radio" name="app">
+            <label for="">French Fries</label>
+            <br>
+            <input type="radio" name="app">
+            <label for="">Curly Fries</label>
+            <br>
+            <input type="radio" name="app">
+            <label for="">Waffle Fries</label>
+            <br>
+            <input type="radio" name="app">
+            <label for="">Texas Toast</label>
+            <br>
+            <input type="radio" name="app">
+            <label for="">Coleslaw</label>
+        </fieldset>
+        <fieldset>
+            <legend>Beverages</legend>
+            <input type="checkbox">
+            <label for="">Coca Cola</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Pepsi</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Dr. Pepper</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Sprite</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Root Beer</label>
+        </fieldset>
+        <fieldset>
+            <legend>MilkShakes</legend>
+            <input type="radio" name="app">
+            <label for="">Vanilla Shake</label>
+            <br>
+            <input type="radio" name="app">
+            <label for="">Chocolate Shake</label>
+            <br>
+            <input type="radio" name="app">
+            <label for="">Strawberry Shake</label>
+            <br>
+            <input type="radio" name="app">
+            <label for="">Cookies N Cream Shake</label>
+        </fieldset>
+        <fieldset>
+            <legend>Desserts</legend>
+            <input type="radio" name="dessert">
+            <label for="">Oreo Cake</label>
+            <br>
+            <input type="radio" name="dessert">
+            <label for="">Vanilla Ice Cream</label>
+            <br>
+            <input type="radio" name="dessert">
+            <label for="">Chocolate Ice Cream</label>
+            <br>
+        </fieldset>
+        <fieldset>
+            <legend>Reviews or Special Instructions</legend>
+            <textarea name="" id="textarea" cols="30" rows="10"></textarea>
+        </fieldset>
+        <button type="submit"><a href="index.html">Submit Order</a></button>
+    </form>
+    <div class="container">
+        <!-- footer -->
+        <div class="footer">
+        <p class="end">
+            Monday-Friday 10:00 a.m. - 9 p.m. &#124; Saturday & Sunday 10 a.m. - 11 p.m.
+        </p>
+        <p class="end">
+            Phone: 555-555-5555
+            &#124;
+            Email: <a href="mailto:GatorBurger@gmail.com">GatorBurger@gmail.com</a>
+        </p>
+        <p class="end">
+            2550 US Hwy 98 N, Lakeland, FL 33805
+        </p>
+        <p class="end">&#169; 2022 Gator Burger International All Rights Reserved. Menu items and pricing may vary from
+            location and are subject to change</p>
+        </div>
+    </div>
+</body>
+</html>
